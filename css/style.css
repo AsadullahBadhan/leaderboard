@@ -70,7 +70,7 @@ nav {
     top: 70px;
     right: 0;
     width: 50%;
-    height: 60vh;
+    height: 100%;
     background-color: #562eff;
     flex-direction: column;
     justify-content: space-around;
@@ -234,6 +234,9 @@ hr {
 }
 
 @media (max-width: 576px) {
+  body{
+    overflow-x: hidden;
+  }
   section {
     width: 90%;
     padding: 10px;
