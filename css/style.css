@@ -53,7 +53,6 @@ nav {
 .burger {
   display: none;
   cursor: pointer;
-  transition: all 3s;
 }
 
 .burger span {
@@ -62,6 +61,7 @@ nav {
   background-color: #ffffff;
   margin-top: 5px;
   display: block;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 576px) {
@@ -70,7 +70,7 @@ nav {
     top: 70px;
     right: 0;
     width: 50%;
-    height: 90vh;
+    height: 60vh;
     background-color: #562eff;
     flex-direction: column;
     justify-content: space-around;
@@ -111,7 +111,7 @@ nav {
 }
 
 .toggle #line3{
-    transform: rotate(45deg) translate(-5px,-6px);
+    transform: rotate(45deg) translate(-4px,-5px);
 }
 /* ------- main --------- */
 section {
